@@ -6,11 +6,39 @@ The Movie Recommendation System Web App is a user-friendly platform that provide
 
 The Movie Recommendation System uses content based filtering techniques to suggest movies based on previous movie preferences. It compares the inputted movies togeter to extract features similar in order to suggest a new movie that the user may like. 
 
-### Prerequisites ###
+## Prerequisites ##
     
     Install Node.js and npm (Node Package Manager) on your system.
     Python (version 3.6 or higher)
     pip (Python package manager)
+
+## Setting Up the Web App ##
+
+### Clone this repository to your local machine. ###
+
+    git clone https://github.com/ManikSharma001/Movie-Recommendation-System-Web-App.git
+    cd movie-recommendation-app
+
+### Install server dependencies and start the server. ###
+
+    cd server
+    npm install mongodb express cors dotenv 
+    npm start
+
+### Install client dependencies and start the client. ###
+
+    cd ../client
+    npx create-react-app client
+    npm install react-router-dom
+    npm start
+
+Access the web app by opening your browser and navigating to http://localhost:3000.
+
+## Using the Web App ## 
+
+    On the home page, enter the names of three of your favorite movies.
+    Click the "Submit" button.
+    The system will analyze your input and provide you with a recommended movie based on your favorites.
     
 ### Technologies Used ###
 
@@ -31,13 +59,13 @@ The Movie Recommendation System uses content based filtering techniques to sugge
 
 ## Contributing ##
 
-I welcome contributions from the community! Whether you want to report issues, suggest improvements, or submit new features, your input is highly appreciated. Please refer to the Contributing Guidelines for more details.
+I welcome contributions from the community! Whether you want to report issues, suggest improvements, or submit new features, your input is highly appreciated.
 
 ## License ##
 
 This project is licensed under the MIT License.
 
-## Things to Imporve ##
+## Things to Imporve (Not in Any Particular Order) ##
 * Increase the Speed of Recommendation Algorithm
 * Add in User Error-Checking
 * Add semantic analysis using word vectors in order to better identify similar plotlines in movies (separate program already created - just need to add it in seamlessly)
