@@ -70,3 +70,6 @@ This project is licensed under the MIT License.
 * Add in User Error-Checking
 * Add semantic analysis using word vectors in order to better identify similar plotlines in movies (separate program already created - just need to add it in seamlessly)
 * Add user accounts for users to access and save liked suggestions
+
+## Notes ##
+I am currently unable to upload the excel files, which were obtained from Kaggle, to this repository. 
