@@ -1,0 +1,9 @@
+node_modules
+# Ignore .env files
+.env
+
+# Ignore extra python code.txt
+extra python code.txt
+
+# Ignore MongoDB password.txt
+MongoDB password.txt
