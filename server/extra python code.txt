@@ -1,7 +1,0 @@
-  # Create a vector object and matrix based upon Term Frequency-Inverse Document Frequency (TF-IDF) and perform NLP calculations upon them
-  tf_vector_obj = TfidfVectorizer(stop_words='english')
-  tf_matrix = tf_vector_obj.fit_transform(movie_data['overview'])
-
-  global cosine_similarity
-  cosine_similarity = linear_kernel(tf_matrix, tf_matrix)
-  indices = pd.Series(movie_data.index, index=movie_data['title']).drop_duplicates()
