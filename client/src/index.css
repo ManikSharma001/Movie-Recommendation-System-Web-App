@@ -1,0 +1,144 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: #010432;
+  background-image: url('./images/movie_curtain.jpeg');
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container1 {
+  text-align: left;
+  float: left;
+  font-size: 16px;
+  margin: 0;
+  padding: 0px 35px;
+}
+
+.container2 {
+  text-align: right;
+  float: right;
+  font-size: 16px;
+  margin: 0;
+  padding: 0px 35px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+.AboutMe {
+  padding: 100px 100px;
+}
+
+.AboutMeText {
+  color: ghostwhite;
+  font-weight: bold;
+  padding: 20px 50px;
+  font-size: 20px;
+  margin: 0;
+  text-align: justify;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px 125px;
+} 
+
+ .user-input-form {
+  display: flex;
+  flex-direction: column;
+  color: ghostwhite;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+}
+
+.user-input-form div {
+  margin: 10px 0;
+}
+
+.user-input-form button {
+  margin-top: 15px;
+}
+
+.user-input-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-input-form input {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.explanation-container {
+  max-width: 650px;
+  color: ghostwhite;
+  font-weight: bold;
+  font-size: 25px;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+
+.explanation-container h2 {
+  margin-bottom: 10px;
+  max-width: 50000000px;
+}
+
+.explanation-container p {
+  margin-bottom: 10px;
+}
+
+.explanation-container ol {
+  margin: 0 0 10px 20px;
+}
+
+.explanation-container ol li {
+  margin-bottom: 5px;
+}
+
+.movie-recommendation {
+  color: ghostwhite;
+  font-size: 25px;
+  padding: 10px 10px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sub {
+  color: ghostwhite;
+  font-size: 25px;
+  padding: 10px 10px;
+  align-items: center;
+  margin: 0 auto;
+}
