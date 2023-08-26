@@ -48,14 +48,14 @@ def initModel():
   
   # Get intial movie information through csv file 
   global movie_data
-  movie_data = pd.read_csv(r"C:\Users\manik\Documents\MovieRecommendationSystem\server\scripts\movies_metadata.csv", low_memory=False)
+  movie_data = pd.read_csv(r"C:\Users\manik\Documents\MovieRecommendationSystem\server\scripts\movies_metadata.csv", low_memory=False) # Note: csv file not available on GitHub
   movie_data['overview'] = movie_data['overview'].fillna('')
   # The following Movie ID's are wrong - therefore drop them
   movie_data = movie_data.drop([19730, 29503, 35587])
   
   # Get more information about the movies 
-  movie_credits = pd.read_csv(r"C:\Users\manik\Documents\MovieRecommendationSystem\server\scripts\credits.csv")
-  movie_keywords = pd.read_csv(r"C:\Users\manik\Documents\MovieRecommendationSystem\server\scripts\keywords.csv")
+  movie_credits = pd.read_csv(r"C:\Users\manik\Documents\MovieRecommendationSystem\server\scripts\credits.csv")  # Note: csv file not available on GitHub
+  movie_keywords = pd.read_csv(r"C:\Users\manik\Documents\MovieRecommendationSystem\server\scripts\keywords.csv")  # Note: csv file not available on GitHub
   
   # Change each data type from id to int
   movie_credits['id'] = movie_credits['id'].astype('int')
