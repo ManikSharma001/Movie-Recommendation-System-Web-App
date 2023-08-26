@@ -1,7 +1,6 @@
 node_modules
 # Ignore .env files
 .env
-.txt
 
 # Ignore extra python code.txt
 extra python code.txt
