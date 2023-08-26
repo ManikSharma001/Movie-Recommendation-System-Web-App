@@ -17,7 +17,7 @@ The Movie Recommendation System uses content based filtering techniques to sugge
 ### Clone this repository to your local machine. ###
 
     git clone https://github.com/ManikSharma001/Movie-Recommendation-System-Web-App.git
-    cd movie-recommendation-app
+    cd Movie-Recommendation-System-Web-App
 
 ### Install server dependencies and start the server. ###
 
